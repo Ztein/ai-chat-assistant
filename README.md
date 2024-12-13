@@ -49,6 +49,7 @@ To exit the application, type any of the following commands:
 - Python 3.6 or higher
 - OpenAI API key
 - Required Python packages (see requirements.txt)
+- In order to use the function calling assistant, you need to have a local instance of the Linkoping API running. see https://github.com/Ztein/linkping_api
 
 ## License
 
