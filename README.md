@@ -13,11 +13,16 @@ A simple command-line chat interface powered by OpenAI's GPT-4o model.
 3. Create a `.env` file in the root directory and add your OpenAI API key:
    ```bash
    OPENAI_API_KEY=your_api_key_here
+   API_BASE_URL=http://localhost:8000  # Required for Function Calling Assistant
    ```
 
-4. Run the application:
+4. Run one of the assistants:
    ```bash
-   python main.py
+   # For basic chat assistant:
+   python assistant.py
+
+   # For service desk assistant with function calling:
+   python function_calling_assistant.py
    ```
 
 ## Usage
@@ -35,6 +40,9 @@ To exit the application, type any of the following commands:
 - Powered by OpenAI's GPT-4o model
 - Maintains conversation history for context
 - Simple and easy to use
+- Two assistant types:
+  - Basic Assistant: General conversation
+  - Function Calling Assistant: Service desk operations with API integration
 
 ## Requirements
 
